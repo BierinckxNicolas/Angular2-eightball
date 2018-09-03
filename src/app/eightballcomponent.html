@@ -1,0 +1,19 @@
+<div class = 'container'>
+   
+  <form>
+    <label>
+      <input
+        type="text"
+        formControlName="question">
+    </label>
+    <button type="submit" (ngSubmit)="getQuestion(question)" >Ask</button>
+  </form>
+  
+  
+  <ul>
+    
+      Answer : {{ eightball.answer }}
+  
+  </ul>
+
+</div>
